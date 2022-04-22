@@ -49,7 +49,7 @@ $ cd datasets && python div2h5.py
 We provide the pretrained models in `checkpoint` directory. To test HRN on benchmark dataset:
 
 ```
-python hrn/sample.py --model hrn --ckpt_path checkpoint/hrn/hcan_x4.pth --test_data_dir dataset/Set5/Set5 --scale 4 --sample_dir sample/ --shave 5
+python hrn/sample.py --model hrn --ckpt_path checkpoint/hrn/hrn_x4.pth --test_data_dir dataset/Set5/Set5 --scale 4 --sample_dir sample/ --shave 5
 ```
 
 We provide our results on four benchmark dataset (Set5, Set14, B100 and Urban100). [Google Drive](https://drive.google.com/drive/folders/1R4vZMs3Adf8UlYbIzStY98qlsl5y1wxH?usp=sharing)
