@@ -1,7 +1,5 @@
-# HRN
-Cross-domain heterogeneous residual network for single image super-resolution.
-
-[[DOI](https://doi.org/10.1016/j.neunet.2022.02.008)]
+# Cross-domain heterogeneous residual network for single image super-resolution
+Cross-domain heterogeneous residual network for single image super-resolution.[[DOI](https://doi.org/10.1016/j.neunet.2022.02.008)]
 
 ### Abstract
 
