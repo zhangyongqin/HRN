@@ -5,9 +5,9 @@ Cross-domain heterogeneous residual network for single image super-resolution.[[
 
 Single image super-resolution is an ill-posed problem, whose purpose is to acquire a high-resolution image from its degraded observation. Existing deep learning-based methods are compromised on their performance and speed due to the heavy design (i.e., huge model size) of networks. In this paper, we propose a novel high-performance cross-domain heterogeneous residual network for super-resolved image reconstruction. Our network models heterogeneous residuals between different feature layers by hierarchical residual learning. In outer residual learning, dual-domain enhancement modules extract the frequency-domain information to reinforce the space-domain features of network mapping. In middle residual learning, wide-activated residual-in-residual dense blocks are constructed by concatenating the outputs from previous blocks as the inputs into all subsequent blocks for better parameter efficacy. In inner residual learning, wide-activated residual attention blocks are introduced to capture direction- and location-aware feature maps. The proposed method was evaluated on four benchmark datasets, indicating that it can construct the high-quality super-resolved images and achieve the state-of-the-art performance. 
 
-![HRN](./Figs/HRN.PNG)
+![HRN](/Figs/HRN.png)
 Network architecture of our HRN.
-![DEM](./Figs/DEM.PNG)
+![DEM](/Figs/DEM.png)
 The architectures of the proposed modules. (a) DEM, (b) WRDB, (c) WRAB, and (d) CA.
 
 ### Requirements
